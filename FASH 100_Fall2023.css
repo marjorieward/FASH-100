@@ -149,8 +149,8 @@ em {
 
 .button-div{
 	height:0;
-	width:30%;
-	padding-bottom:30%;
+	width:20%;
+	padding-bottom:20%;
 	top: 50%;
 	position: relative;
 	 display: inline-block;
@@ -161,8 +161,8 @@ em {
 }
 .popup {
 	height:0;
-	width:30%;
-	padding-bottom:30%;
+	width:20%;
+	padding-bottom:20%;
 	margin-left: 2px;
 	top: 50%;
   position: relative;
