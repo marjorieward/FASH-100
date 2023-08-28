@@ -298,7 +298,7 @@ em {
 
 .modal-body {
 	height: 45vh;
-	margin:  0 16px;
+	margin:  0 16px 0 16px;
 	overflow-y: auto;
 }
 
