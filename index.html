@@ -183,9 +183,14 @@ function openPopup(id) {
 <!---extra space--->
 <div class="day" style="grid-column: 1; grid-row: 8; border-right: none;"></div>
 <!--CLASS Buttons--->
-<!--PQA DIV--->
-<div style="grid-column: 1 / span 1; grid-row: 4; display: flex; justify-content: center">
-<div class="popup" onclick="openPopup('assignPQA')">
+<!--Class ONE DIV--->
+<div style="grid-column: 2 / span 1; grid-row: 6; display: flex; justify-content: center">
+	<div class="button-div">
+	<button class="button-class" id="class1">
+	<img class="book" src="Icon material-class.svg" alt="classInfo">
+	</button>
+	</div>
+	<div class="popup" onclick="openPopup('assignPQA')">
 	<button class="button-remind">
 	<img  class="exclaim" src="Icon awesome-exclamation.svg" alt="reminder">
 	</button>
@@ -193,68 +198,15 @@ function openPopup(id) {
 </span>
 	</div>
 </div>
-<!--Class ONE DIV--->
-<div style="grid-column: 2 / span 1; grid-row: 4; display: flex; justify-content: center">
-	<div class="button-div">
-	<button class="button-class" id="class1">
-	<img class="book" src="Icon material-class.svg" alt="classInfo">
-	</button>
-	</div>
-</div>
 <!--Class TWO DIV--->
-<div style="grid-column: 4 / span 1; grid-row: 4; display: flex; justify-content: center">
+<div style="grid-column: 4 / span 1; grid-row: 6; display: flex; justify-content: center">
   <div class="button-div">
     <button class="button-class" id="class2">
       <img class="book" src="Icon material-class.svg" alt="classInfo">
       </button>
   </div>
 </div>
-<!--Class THREE DIV--->
-<div style="grid-column: 2 / span 1; grid-row: 5; display: flex; justify-content: center">
-  <div class="button-div">
-    <button class="button-class" id="class3">
-      <img class="book" src="Icon material-class.svg" alt="classInfo">
-      </button>
-  </div>
-	<div class="popup">
-	<button class="button-remind" onclick="openPopup('assign01')">
-	<img  class="exclaim" src="Icon awesome-exclamation.svg" alt="reminder">
-	</button>
-	<span class="popuptext" id="assign01">Sample Check-in due at start of class
-</span>
-	</div>
-</div>
-<!--Class FOUR DIV--->
-<div style="grid-column: 4 / span 1; grid-row: 5; display: flex; justify-content: center">
-  <div class="button-div">
-    <button class="button-class" id="class4">
-      <img class="book" src="Icon material-class.svg" alt="classInfo">
-      </button>
-  </div>
-</div>
-<!--Class FIVE DIV--->
-<div style="grid-column: 2 / span 1; grid-row: 6; display: flex; justify-content: center">
-  <div class="button-div">
-    <button class="button-class" id="class5">
-      <img class="book" src="Icon material-class.svg" alt="classInfo">
-      </button>
-  </div>
-	<div class="popup">
-	<button class="button-remind" onclick="openPopup('assign02')">
-	<img  class="exclaim" src="Icon awesome-exclamation.svg" alt="reminder">
-	</button>
-	<span class="popuptext" id="assign02">Sample Check-in due at start of class
-</span>
-	</div>
-</div>
-<!--Class SIX DIV--->
-<div style="grid-column: 4 / span 1; grid-row: 6; display: flex; justify-content: center">
-  <div class="button-div">
-    <button class="button-class" id="class6">
-      <img class="book" src="Icon material-class.svg" alt="classInfo">
-      </button>
-  </div>
-</div>
+
 <!--CLASS POPUPS--->
 <!-- Modal HTML -->
     <div id="myModal" class="modal" tabindex="-1">
@@ -329,9 +281,55 @@ function openPopup(id) {
 <div class="day--disabled" style="grid-column: 7; grid-row: 6;">4</div>
 <!---extra space--->
 <div class="day" style="grid-column: 1; grid-row: 7; border-right: none;"></div>
- <!--CLASS BARS---> 
+ <!--CLASS BARS--->
+<!--Class THREE DIV--->
+<div style="grid-column: 2 / span 1; grid-row: 2; display: flex; justify-content: center">
+  <div class="button-div">
+    <button class="button-class" id="class3">
+      <img class="book" src="Icon material-class.svg" alt="classInfo">
+      </button>
+  </div>
+	<div class="popup">
+	<button class="button-remind" onclick="openPopup('assign01')">
+	<img  class="exclaim" src="Icon awesome-exclamation.svg" alt="reminder">
+	</button>
+	<span class="popuptext" id="assign01">Sample Check-in due at start of class
+</span>
+	</div>
+</div>
+<!--Class FOUR DIV--->
+<div style="grid-column: 4 / span 1; grid-row: 2; display: flex; justify-content: center">
+  <div class="button-div">
+    <button class="button-class" id="class4">
+      <img class="book" src="Icon material-class.svg" alt="classInfo">
+      </button>
+  </div>
+</div>
+<!--Class FIVE DIV--->
+<div style="grid-column: 2 / span 1; grid-row: 3; display: flex; justify-content: center">
+  <div class="button-div">
+    <button class="button-class" id="class5">
+      <img class="book" src="Icon material-class.svg" alt="classInfo">
+      </button>
+  </div>
+	<div class="popup">
+	<button class="button-remind" onclick="openPopup('assign02')">
+	<img  class="exclaim" src="Icon awesome-exclamation.svg" alt="reminder">
+	</button>
+	<span class="popuptext" id="assign02">Sample Check-in due at start of class
+</span>
+	</div>
+</div>
+<!--Class SIX DIV--->
+<div style="grid-column: 4 / span 1; grid-row: 3; display: flex; justify-content: center">
+  <div class="button-div">
+    <button class="button-class" id="class6">
+      <img class="book" src="Icon material-class.svg" alt="classInfo">
+      </button>
+  </div>
+</div>
 <!--Class START Extra Help One--->
-<div style="grid-column: 1 / span 1; grid-row: 2; display: flex; justify-content: center">
+<div style="grid-column: 1 / span 1; grid-row: 4; display: flex; justify-content: center">
   <div class="popup">
 	<button class="button-help" onclick="openPopup('help01')">
 	<img class="people" src="Icon open-people.svg" alt="extra help">
@@ -342,7 +340,7 @@ function openPopup(id) {
 </div>
 
 <!--Class SEVEN DIV--->
-<div style="grid-column: 2 / span 1; grid-row: 3; display: flex; justify-content: center">
+<div style="grid-column: 2 / span 1; grid-row: 4; display: flex; justify-content: center">
   <div class="button-div">
     <button class="button-class" id="class7">
       <img class="book" src="Icon material-class.svg" alt="classInfo">
@@ -357,7 +355,7 @@ function openPopup(id) {
 	</div>
 </div>
 <!--Class EIGHT DIV--->
-<div style="grid-column: 4 / span 1; grid-row: 3; display: flex; justify-content: center">
+<div style="grid-column: 4 / span 1; grid-row: 4; display: flex; justify-content: center">
   <div class="button-div">
     <button class="button-class" id="class8">
       <img class="book" src="Icon material-class.svg" alt="classInfo">
@@ -372,7 +370,7 @@ function openPopup(id) {
 	</div>
 </div>
 <!--Class NINE DIV--->
-<div style="grid-column: 2 / span 1; grid-row: 4; display: flex; justify-content: center">
+<div style="grid-column: 2 / span 1; grid-row: 5; display: flex; justify-content: center">
   <div class="button-div">
     <button class="button-class" id="class9">
       <img class="book" src="Icon material-class.svg" alt="classInfo">
@@ -380,7 +378,7 @@ function openPopup(id) {
   </div>
 </div>
 <!--Class TEN DIV--->
-<div style="grid-column: 4 / span 1; grid-row: 4; display: flex; justify-content: center">
+<div style="grid-column: 4 / span 1; grid-row: 5; display: flex; justify-content: center">
   <div class="button-div">
     <button class="button-class" id="class10">
       <img class="book" src="Icon material-class.svg" alt="classInfo">
@@ -402,7 +400,7 @@ function openPopup(id) {
 	</div>
 </div>
 <!--Class ELEVEN DIV--->
-<div style="grid-column: 2 / span 1; grid-row: 5; display: flex; justify-content: center">
+<div style="grid-column: 2 / span 1; grid-row: 6; display: flex; justify-content: center">
   <div class="button-div">
     <button class="button-class" id="class11">
       <img class="book" src="Icon material-class.svg" alt="classInfo">
@@ -416,48 +414,7 @@ function openPopup(id) {
 </span>
 	</div>
 </div>
-<!--Class TWELVE DIV--->
-<div style="grid-column: 4 / span 1; grid-row: 5; display: flex; justify-content: center">
-  <div class="button-div">
-    <button class="button-class" id="class12">
-      <img class="book" src="Icon material-class.svg" alt="classInfo">
-      </button>
-  </div>
-</div>
-<!--Class START Extra Help Two--->
-<div style="grid-column: 1 / span 1; grid-row: 5; display: flex; justify-content: center">
-  <div class="popup">
-	<button class="button-help" onclick="openPopup('help02')">
-	<img class="people" src="Icon open-people.svg" alt="extra help">
-	</button>
-	<span class="popuptext" id="help02">Extra Help Eckburg Room 301 10am-12pm
-</span>
-	</div>
-</div>
-	
-<!--Class THIRTEEN DIV--->
-<div style="grid-column: 2 / span 1; grid-row: 6; display: flex; justify-content: center">
-  <div class="button-div">
-    <button class="button-class" id="class13">
-      <img class="book" src="Icon material-class.svg" alt="classInfo">
-      </button>
-  </div>
-	<div class="popup">
-	<button class="button-remind" onclick="openPopup('assign08')">
-	<img  class="exclaim" src="Icon awesome-exclamation.svg" alt="reminder">
-	</button>
-	<span class="popuptext" id="assign08">Sample Check-in due at start of class
-</span>
-	</div>
-</div>
-<!--Class FOURTEEN DIV--->
-<div style="grid-column: 4 / span 1; grid-row: 6; display: flex; justify-content: center">
-  <div class="button-div">
-    <button class="button-class" id="class14">
-      <img class="book" src="Icon material-class.svg" alt="classInfo">
-      </button>
-  </div>
-</div>
+<!---End CLASS BARS--->
 	
 
 </div>
@@ -518,8 +475,50 @@ function openPopup(id) {
 <!---extra space--->
 <div class="day" style="grid-column: 1; grid-row: 7; border-right: none;"></div>
 <!--CLASS BARS--->
+<!--Class TWELVE DIV--->
+<div style="grid-column: 4 / span 1; grid-row: 2; display: flex; justify-content: center">
+  <div class="button-div">
+    <button class="button-class" id="class12">
+      <img class="book" src="Icon material-class.svg" alt="classInfo">
+      </button>
+  </div>
+</div>
+<!--Class START Extra Help Two--->
+<div style="grid-column: 1 / span 1; grid-row: 3; display: flex; justify-content: center">
+  <div class="popup">
+	<button class="button-help" onclick="openPopup('help02')">
+	<img class="people" src="Icon open-people.svg" alt="extra help">
+	</button>
+	<span class="popuptext" id="help02">Extra Help Eckburg Room 301 10am-12pm
+</span>
+	</div>
+</div>
+	
+<!--Class THIRTEEN DIV--->
+<div style="grid-column: 2 / span 1; grid-row: 3; display: flex; justify-content: center">
+  <div class="button-div">
+    <button class="button-class" id="class13">
+      <img class="book" src="Icon material-class.svg" alt="classInfo">
+      </button>
+  </div>
+	<div class="popup">
+	<button class="button-remind" onclick="openPopup('assign08')">
+	<img  class="exclaim" src="Icon awesome-exclamation.svg" alt="reminder">
+	</button>
+	<span class="popuptext" id="assign08">Sample Check-in due at start of class
+</span>
+	</div>
+</div>
+<!--Class FOURTEEN DIV--->
+<div style="grid-column: 4 / span 1; grid-row: 3; display: flex; justify-content: center">
+  <div class="button-div">
+    <button class="button-class" id="class14">
+      <img class="book" src="Icon material-class.svg" alt="classInfo">
+      </button>
+  </div>
+</div>
 <!--Class FIFTEEN DIV--->
-<div style="grid-column: 2 / span 1; grid-row: 2; display: flex; justify-content: center">
+<div style="grid-column: 2 / span 1; grid-row: 4; display: flex; justify-content: center">
   <div class="button-div">
     <button class="button-class" id="class15">
       <img class="book" src="Icon material-class.svg" alt="classInfo">
@@ -534,7 +533,7 @@ function openPopup(id) {
 	</div>
 </div>
 <!--Class SIXTEEN DIV--->
-<div style="grid-column: 4 / span 1; grid-row: 2; display: flex; justify-content: center">
+<div style="grid-column: 4 / span 1; grid-row: 4; display: flex; justify-content: center">
   <div class="button-div">
     <button class="button-class" id="class16">
       <img class="book" src="Icon material-class.svg" alt="classInfo">
@@ -549,7 +548,7 @@ function openPopup(id) {
 	</div>
 </div>
 <!--Class SEVENTEEN DIV--->
-<div style="grid-column: 2 / span 1; grid-row: 3; display: flex; justify-content: center">
+<div style="grid-column: 2 / span 1; grid-row: 5; display: flex; justify-content: center">
   <div class="button-div">
     <button class="button-class" id="class17">
       <img class="book" src="Icon material-class.svg" alt="classInfo">
@@ -564,7 +563,7 @@ function openPopup(id) {
 	</div>
 </div>
 <!--Class EIGHTEEN DIV--->
-<div style="grid-column: 4 / span 1; grid-row: 3; display: flex; justify-content: center">
+<div style="grid-column: 4 / span 1; grid-row: 5; display: flex; justify-content: center">
   <div class="button-div">
     <button class="button-class" id="class18">
       <img class="book" src="Icon material-class.svg" alt="classInfo">
@@ -579,7 +578,7 @@ function openPopup(id) {
 	</div>
 </div>
 <!--Class NINETEEN DIV--->
-<div style="grid-column: 2 / span 1; grid-row: 4; display: flex; justify-content: center">
+<div style="grid-column: 2 / span 1; grid-row: 6; display: flex; justify-content: center">
   <div class="button-div">
     <button class="button-class" id="class19">
       <img class="book" src="Icon material-class.svg" alt="classInfo">
@@ -601,7 +600,7 @@ function openPopup(id) {
 	</div>
 </div>
 <!--Class TWENTY DIV--->
-<div style="grid-column: 4 / span 1; grid-row: 4; display: flex; justify-content: center">
+<div style="grid-column: 4 / span 1; grid-row: 6; display: flex; justify-content: center">
   <div class="button-div">
     <button class="button-class" id="class20">
       <img class="book" src="Icon material-class.svg" alt="classInfo">
